@@ -1,0 +1,58 @@
+body {
+
+
+	background: cyan;
+	padding: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: 0px;
+	align-content: center;
+	
+
+}
+
+header {
+
+	text-align: center;
+	display: contents;
+	font-size: 1em;
+	color: black;
+	background-color: #355664;
+	font-family: Arial, sans-serif;
+
+}
+
+nav {
+
+	background: url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	padding: 0 5px;
+	position: absolute;
+	right: 1px;
+	top: 4em;
+	border: 4px solid #FCFCFC;
+	-moz-box-shadow:0 1px 1px #33333333;
+	-webkit-box-shadow:0 1px 1px #33333333;
+	box-shadow: 0 1px 1px #33333333;
+
+
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	font-size:1em;
+	font-weight:bold;
+	margin:2px 1px;
+	padding:2px 4px 3px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+
+

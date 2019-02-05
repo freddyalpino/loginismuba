@@ -1,0 +1,48 @@
+<?php
+
+session_start();
+
+unset($_SESSION['SESS_FIRST_NAME']);
+unset($_SESSION['SESS_LAST_NAME']);
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Masuk</title>
+<style>
+body {
+    background-image: url("foto/tampilan.png");
+    background-repeat: no-repeat;
+    background-position: right margin-top;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-left: 1000px;
+    
+}
+
+</style>
+</head>
+<body>
+
+<center>
+
+	<div class="header">
+
+	
+
+	</div>
+
+		<form action="home.php" method="POST">
+			<label for="nama_admin">Username</label><br>
+			<input type="text" name="nama_admin"><br>
+			<label for="password_admin">Password</label><br>
+			<input type="password" name="password_admin"><br><br>
+			<button class="submit">Login</button>
+		</form>
+		
+</center>
+</body>
+</html>
